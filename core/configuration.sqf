@@ -85,17 +85,17 @@ life_vehicles = [];
 bank_robber = [];
 switch (playerSide) do
 {
-	case west:
+	case west: 
 	{
 		life_atmcash = 20000; //Starting Bank Money
 		life_paycheck = 1500; //Paycheck Amount
 	};
-	case civilian:
+	case civilian: 
 	{
 		life_atmcash = 20000; //Starting Bank Money
 		life_paycheck = 200; //Paycheck Amount
 	};
-
+	
 	case independent: {
 		life_atmcash = 20000;
 		life_paycheck = 1000;
@@ -108,7 +108,7 @@ switch (playerSide) do
 life_vShop_rentalOnly = ["B_MRAP_01_hmg_F","B_G_Offroad_01_armed_F"];
 __CONST__(life_vShop_rentalOnly,life_vShop_rentalOnly); //These vehicles can never be bought and only 'rented'. Used as a balancer & money sink. If you want your server to be chaotic then fine.. Remove it..
 
-life_inv_items =
+life_inv_items = 
 [
 	"life_inv_oilu",
 	"life_inv_oilp",
@@ -193,7 +193,7 @@ life_inv_items =
 	"life_inv_tobacco",
 	"life_inv_cigarette",
 	"life_inv_kidney",
-	"life_inv_raxsrum"
+	"life_inv_raxsrum"	
 ];
 
 //Setup variable inv vars.
@@ -224,7 +224,7 @@ life_licenses =
 	["license_civ_cement","civ"],
 	["license_med_air","med"],
 	["license_civ_home","civ"],
-
+	
 	["license_civ_rifle","civ"]
 ];
 
@@ -239,7 +239,7 @@ life_illegal_items = [["heroinu",1200],["heroinp",2500],["cocaine",1500],["cocai
 /*
 	Sell / buy arrays
 */
-sell_array =
+sell_array = 
 [
 	["apple",50],
 	["heroinu",1850],
@@ -259,7 +259,7 @@ sell_array =
 	["donuts",60],
 	["marijuana",2350],
 	["tbacon",25],
-	["lockpick",1500],
+	["lockpick",5000],
 	["pickaxe",750],
 	["redgull",200],
 	["peach",55],
@@ -272,7 +272,7 @@ sell_array =
 	["salt_r",1650],
 	["glass",1450],
 	["fuelF",500],
-
+		
 	["wheat",50],
 	["sunflower",50],
 	["corn",100],
@@ -282,7 +282,7 @@ sell_array =
 	["opium",1000],
 	["cannabis",1000],
 	["pumpkin",500],
-
+	
 	["wheat seed",10],
 	["sunflower seed",10],
 	["corn seed",10],
@@ -297,12 +297,12 @@ sell_array =
 	["raw chicken",700],
 	["raw sheep meat",500],
 	["raw rabbit",700],
-
+	
 	["spikeStrip",1200],
 	["cement",1950],
-	["goldbar",95000],
+	["goldbar",95000], 
 	//Deo Additions
-	["zoobeer",25],
+	["zoobeer",25], 
 	["BarGate",500],
 	["RoadBlockConc",100],
 	["RoadBlockWood",100],
@@ -336,7 +336,7 @@ buy_array =
 	["pickaxe",1200],
 	["redgull",1500],
 	["fuelF",850],
-
+	
 	["wheat",100],
 	["sunflower",100],
 	["corn",200],
@@ -346,7 +346,7 @@ buy_array =
 	["opium",2000],
 	["cannabis",2000],
 	["pumpkin",1000],
-
+	
 	["wheat seed",25],
 	["sunflower seed",25],
 	["corn seed",25],
@@ -356,12 +356,12 @@ buy_array =
 	["opium seed",400],
 	["cannabis seed",400],
 	["pumpkin seed",150],
-
+	
 	["raw goat meat",600],
 	["raw chicken",800],
 	["raw sheep meat",600],
 	["raw rabbit",800],
-
+	
 	["peach",68],
 	["spikeStrip",2500],
 	["blastingcharge",35000],
@@ -573,8 +573,8 @@ life_garage_prices =
 	["A3L_SuburbanFG",0],
 	["M1030",0],
 	["B_MRAP_01_F",7500]
-
-
+	
+	
 ];
 __CONST__(life_garage_prices,life_garage_prices);
 
