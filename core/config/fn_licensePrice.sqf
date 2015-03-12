@@ -1,7 +1,7 @@
 /*
 	File: fn_licensePrice.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Returns the license price.
 */
@@ -13,7 +13,7 @@ switch (_type) do
 {
 	case "driver": {500}; //Drivers License cost
 	case "boat": {80000}; //Boating license cost
-	case "pilot": {3500000}; //Pilot/air license cost
+	case "pilot": {1500000}; //Pilot/air license cost
 	case "gun": {100000}; //Firearm/gun license cost
 	case "dive": {50000}; //Diving license cost
 	case "oil": {180000}; //Oil processing license cost
@@ -35,6 +35,6 @@ switch (_type) do
 	case "cement": {150000};
 	case "mair": {150000};
 	case "home": {9000000};
-	
+
 	case "rifle": {150000};
 };

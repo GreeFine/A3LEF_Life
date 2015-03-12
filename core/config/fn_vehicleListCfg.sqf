@@ -15,10 +15,10 @@ switch (_shop) do
 	case "dezzie_car":
 	{
 		_return = [
-			["IVORY_PRIUS",20000],
-			["IVORY_R8",1300000],
-			["IVORY_R8SPYDER",2000000],
-			["IVORY_REV",3500000]
+			["IVORY_PRIUS",80000],
+			["IVORY_R8",800000],
+			["IVORY_R8SPYDER",1100000],
+			["IVORY_REV",1600000]
 		];
 	};
 	case "kart_shop":
@@ -62,17 +62,17 @@ switch (_shop) do
 			["BMW_M5Blue",220000],
 			["BMW_M5Red",220000],
 			["BMW_M5White",220000],
-			
+
 			["DAR_M3CivBlack",220000],
 			["DAR_M3CivGrey",220000],
 			["DAR_M3CivWhite",220000],
-			
+
 			["A3L_RX7_Blue",80000],
 			["A3L_RX7_Red",80000],
 			["A3L_RX7_White",80000],
 			["A3L_RX7_Black",80000],
-			
-			
+
+
 			["A3L_Atom",400000],
 			["A3L_AMC",80000],
 			["A3L_AMXRed",80000],
@@ -106,7 +106,7 @@ switch (_shop) do
 			["S_McLarenP1_White",3000000],
 			["S_McLarenP1_Yellow",3000000],
 			["S_McLarenP1_Silver",3000000],
-			
+
 			["A3L_Veyron",1500000],
 			["A3L_Veyron_red",1500000],
 			["A3L_Veyron_black",1500000],
@@ -122,7 +122,7 @@ switch (_shop) do
 			["A3L_SuburbanRed",300000],
 			["A3L_SuburbanBlack",300000],
 			["A3L_SuburbanGrey",300000],
-			
+
 			["DAR_ImpalaCivA",30000],
 			["DAR_ImpalaCivB",30000],
 			["DAR_ImpalaCivD",30000],
@@ -130,7 +130,7 @@ switch (_shop) do
 			["DAR_ImpalaCivE",30000],
 			["DAR_ImpalaCivG",30000],
 			["DAR_ImpalaCivF",30000],
-			
+
 			["A3L_Camaro",220000]
 		];
 	};
@@ -142,7 +142,7 @@ switch (_shop) do
 			["DAR_FusionCivBlue",30000],
 			["DAR_FusionCivRed",30000],
 			["DAR_FusionCiv",30000],
-			
+
 			["A3L_CVWhite",60000],
 			["A3L_CVBlack",60000],
 			["A3L_CVGrey",60000],
@@ -184,15 +184,14 @@ switch (_shop) do
 	{
 		_return =
 		[
-			["Jonzie_Mini_Cooper",10000],
 			["B_Quadbike_01_F",5000],
+			["M1030",14000],
 			["A3L_Escort",12000],
-			["A3L_EscortTaxi",60000],
 			["A3L_EscortBlack",12000],
 			["A3L_EscortBlue",12000],
 			["A3L_EscortWhite",12000],
 			["A3L_EscortPink",12000],
-			["M1030",14000],
+			["A3L_EscortTaxi",50000],
 			["A3L_PuntoRed",20000],
 			["A3L_PuntoBlack",20000],
 			["A3L_PuntoWhite",20000],
@@ -202,15 +201,16 @@ switch (_shop) do
 			["A3L_RegalOrange",22000],
 			["A3L_RegalRed",22000],
 			["A3L_RegalWhite",22000],
+			["A3L_VolksWagenGolfGTired",25000],
+			["A3L_VolksWagenGolfGTiblack",25000],
+			["A3L_VolksWagenGolfGTiblue",25000],
+			["A3L_VolksWagenGolfGTiwhite",25000],
 			["A3L_JeepWhiteBlack",60000],
 			["A3L_JeepGreenBlack",60000],
 			["A3L_JeepRedTan",60000],
 			["A3L_JeepRedBlack",60000],
 			["A3L_JeepGrayBlack",60000],
-			["A3L_VolksWagenGolfGTired",36000],
-			["A3L_VolksWagenGolfGTiblack",36000],
-			["A3L_VolksWagenGolfGTiblue",36000],
-			["A3L_VolksWagenGolfGTiwhite",36000],
+			["Jonzie_Mini_Cooper",70000],
 		    ["S_Rangerover_Black",220000],
 			["S_Rangerover_Red",220000],
 			["S_Rangerover_Blue",220000],
@@ -230,11 +230,12 @@ switch (_shop) do
 			["A3L_F350Blue",150000],
 			["A3L_F350Red",150000],
 			["A3L_F350White",150000],
-			["A3L_Dumptruck",250000],
-			["C_Van_01_box_F",200000],
-			["C_Van_01_transport_F",120000],
-			["A3L_Bus",300000],
-			["A3L_Towtruck",300000]
+			["C_Van_01_transport_F",170000],
+			["C_Van_01_box_F",210000],
+			["A3L_Dumptruck",350000],
+
+			["A3L_Bus",150000],
+			["A3L_Towtruck",150000]
 		];
 	};
 	case "reb_car":
@@ -256,10 +257,10 @@ switch (_shop) do
 		[
 			["",40000],
 			["",100000],
-			
+
 			["Jonzie_96_Impala_Unmarked",100000],
-			
-			
+
+
 			["A3L_TaurusFPBCSO",2000],
 			["A3L_TaurusFPBLBCSO",2000],
 			["A3L_CVPIFPBCSO",2000],
@@ -276,50 +277,50 @@ switch (_shop) do
 			["A3L_GrandCaravanUC",5000],
 			["A3L_GrandCaravanUCBlack",5000],
 			["A3L_GrandCaravanUCBlack",5000],
-			
-			
+
+
 			["A3L_TaurusUCBlack",4000],
 			["A3L_TaurusUCGrey",4000],
 			["A3L_TaurusUCWhite",4000],
 			["A3L_TaurusUCBlue",4000],
 			["A3L_TaurusUCRed",4000],
-			
+
 			["DAR_ImpalaPoliceSlick",4000],
 			["DAR_ImpalaPolice",4000],
-			
+
 			["DAR_ExplorerPolice",7000],
 			["DAR_ExplorerPoliceStealth",7000],
-			
-			["DAR_SWATPolice",100000],	
-			
+
+			["DAR_SWATPolice",100000],
+
 			["A3L_CVPIUCBlack",5000],
-			
-			
+
+
 			["A3L_CVPIUC",5000],
-			
+
 			["A3L_CVPIUCWhite",5000],
-			
+
 			["A3L_CVPIUCBlack",5000],
-			
+
 			["A3L_CVPIGrey",5000],
-			
+
 			["A3L_CVPIUCRed",5000],
-			
+
 			["A3L_CVPIUCPink",5000],
-			
+
 			["A3L_CVPIUCBlue",5000],
-			
+
 			["A3L_ChargerUC",6000],
 			["A3L_ChargerUCWhite",6000],
-			
+
 			["DAR_TahoePolice",6000],
 			["DAR_TahoePoliceDet",6000],
 			["DAR_ChargerPolice",6000],
 			["DAR_ChargerPoliceStateSlick",6000],
 			["B_MRAP_01_F",5000],
-			
+
 			["A3L_jailBus",10000]
-			
+
 
 		];
 	};
@@ -327,21 +328,25 @@ switch (_shop) do
 	{
 		_return =
 		[
-			["IVORY_T6A_1",700000],
+//Helico
+
+			["C_Heli_Light_01_civil_F",650000],
+			["ivory_b206_news",1100000],
+			["ivory_b206",1600000],
+			["O_Heli_Light_02_unarmed_F",2400000],
+			["IVORY_BELL512",2800000],
+
+
+//Avion
+			["IVORY_T6A_1",1000000],
 			["bwi_a3_t6a_6",700000],
 			["bwi_a3_t6a_nta",700000],
 			["bwi_a3_t6a_7",700000],
 			["bwi_a3_t6a_9",700000],
 			["bwi_a3_t6a_4",700000],
-			
-			["C_Heli_Light_01_civil_F",1200000],
-			["ivory_b206",1800000],
-			["ivory_b206_news",1800000],
-			["IVORY_BELL512",1800000],
-			["O_Heli_Light_02_unarmed_F",2200000],
-			["IVORY_CRJ200_1",40000000],
-			["IVORY_ERJ135_1",40000000],
-			["IVORY_YAK42D_1",40000000]
+			["IVORY_CRJ200_1",4000000],
+			["IVORY_ERJ135_1",4000000],
+			["IVORY_YAK42D_1",4000000]
 		];
 	};
 	case "cop_air":

@@ -1,7 +1,7 @@
 /*
 	File: fn_itemWeight.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Gets the items weight and returns it.
 */
@@ -46,7 +46,7 @@ switch (_item) do
 	case "diamondc": {1};
 	case "cocaine": {6};
 	case "cocainep": {4};
-	case "spikeStrip": {15};
+	case "spikeStrip": {5};
 	case "rock": {6};
 	case "cement": {5};
 	case "goldbar": {12};
@@ -88,7 +88,7 @@ switch (_item) do
 	case "BarGate": {2};
 	case "Rax's Rum" : {1};
 	case "zoobeer": {1}; // Duff Beer
-	
+
 
 	default {1};
 };
